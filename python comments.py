@@ -1,0 +1,1 @@
+print("Hello,World!") #this is the comment,so programm will read the code but the comment side will be not read
