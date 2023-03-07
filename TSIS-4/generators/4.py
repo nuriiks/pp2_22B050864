@@ -1,7 +1,7 @@
 a = int(input())
 b = int(input())
 def squrares(a,b):
-    while a*a<b*b:
+    while a*a<b:
         yield a*a
         a+=1
 for i in squrares(a,b):
