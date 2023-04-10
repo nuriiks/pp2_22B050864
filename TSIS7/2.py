@@ -66,7 +66,7 @@ while run:
                 pygame.display.flip()
             elif event.key == key_prev:
                 current_music = (current_music - 1)%len(music_files)
-                current_pic = (current_pic + 1)%len(pic_files)
+                current_pic = (current_pic - 1)%len(pic_files)
                 pygame.mixer.music.load(music_dir + music_files[current_music])
                 picture = pygame.image.load(pictures_dir+pic_files[current_pic])
                 picture = pygame.transform.scale(picture, (500,500)) 
