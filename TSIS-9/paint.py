@@ -217,6 +217,7 @@ def main():
                         "eraser" : Erase(start_pos=event.pos)
                         }
                         active_obj = shapes[current_shape]
+
             if event.type == pygame.MOUSEMOTION and active_obj is not None:
                 active_obj.handle(mouse_pos=pygame.mouse.get_pos())
                 active_obj.draw()
