@@ -1,0 +1,1 @@
+pressed = pygame.key.get_pressed()
